@@ -31,6 +31,7 @@ public class Marco extends javax.swing.JFrame implements KeyListener, ActionList
         this.addKeyListener(canvas);
         tSerpiente.start();
         tComida.start();
+        System.out.println("Cambio");
     }
 
     /**
